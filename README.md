@@ -12,3 +12,59 @@ we are going to slove this with help of sequential CNN model by producing a solu
  Deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the Face expression recognition dataset dataset .
    This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 Here is the dataset link:-  https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+
+## Dependencies
+
+1)	Python 3
+2)	Tensorflow 2.0
+3)	Streamlit
+4)	Streamlit-Webrtc
+5)	OpenCV
+
+## Working Sample and Presentation Details
+ # Working Sample Video
+ 
+ # Presentation view in pdf
+ 
+ ## Model Creation
+# 1. Using CNN with the help of Keras
+   Deep learning is a very significant subset of machine learning because of its high performance across various domains. Convolutional Neural Network (CNN), is a powerful image processing deep learning type often using in computer vision that comprises an image and video recognition along with a recommender system and natural language processing ( NLP).
+CNN uses a multilayer system consists of the input layer, output layer, and a hidden layer that comprises multiple convolutional layers, pooling layers, fully connected layers. We will discuss all layers in the next section of the article while explaining the building of CNN.
+
+![Optional Text]
+
+Kaggle Notebook link :
+
+• CNN model has given training  accuracy of 80% and test accuracy of 68%. It seems excellent. So, we saved using callbacks and Tested on local machine it was worked fine.
+
+• Flaws is more time taking and few emotions are very rarely detects .Because less no. of  faces are given to train.
+
+• Validation accuracy was improved by Hyper tuning.
+
+# 2. Transfer Learning using MobileNet
+We shall be using Mobilenet as it is lightweight in its architecture. It uses depthwise separable convolutions which basically means it performs a single convolution on each colour channel rather than combining all three and flattening it. This has the effect of filtering the input channels. Or as the authors of the paper explain clearly: “ For MobileNets the depthwise convolution applies a single filter to each input channel. The pointwise convolution then applies a 1×1 convolution to combine the outputs the depthwise convolution. A standard convolution both filters and combines inputs into a new set of outputs in one step. The depthwise separable convolution splits this into two layers, a separate layer for filtering and a separate layer for combining. This factorization has the effect of drastically reducing computation and model size. ”
+![]
+
+
+Kaggle Notebook link:
+
+ I have trained the model with MobileNetV2 and got the accuracy of 74% , which was better than previous model.
+ 
+  ## Model accuracy and loss plot
+  ![]
+  
+   ## Deployment of models
+ # 1.Deployment code for OpenCV using local machine.
+    using Jypyter Notebook with model saved by cnn with best weights.
+    
+    
+ # 2.Deployment in Heroku Platform
+ 
+ 
+  # 3.Deployment in Streamlit webapp
+  Note : please try to start by selecting device, ignore the error code shown press start()
+  
+  
+  ## Concluding Summary
+   So Here, Finally I have build a Web App by Using CNN model, which as training accuracy of 74% and validation accuracy of 68%
+
