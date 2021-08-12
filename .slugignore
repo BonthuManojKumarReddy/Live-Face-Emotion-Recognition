@@ -1,0 +1,7 @@
+# Heres a comment
+*.jpge
+*.png
+*.pdf
+/READme.md
+/Media Files
+/Kaggle Notebooks
