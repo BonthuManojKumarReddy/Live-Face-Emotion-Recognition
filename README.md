@@ -51,7 +51,7 @@ We shall be using Mobilenet as it is lightweight in its architecture. It uses de
 ![](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/tl_image.jpg)
 
 
-Kaggle Notebook link:
+Kaggle Notebook link:https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Kaggle%20Notebooks/FER%20using%20transfer%20learning.ipynb
 
  I have trained the model with MobileNetV2 and got the accuracy of 74% , which was better than previous model.
  
