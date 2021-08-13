@@ -29,14 +29,14 @@ Here is the dataset link:-  https://www.kaggle.com/jonathanoheix/face-expression
  ![Demo.image](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/working%20sample%20image.JPG)
  
  # Presentation view in pdf
- 
+ https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/Presentation(new).pdf
  
  ## Model Creation
 # 1. Using CNN with the help of Keras
    Deep learning is a very significant subset of machine learning because of its high performance across various domains. Convolutional Neural Network (CNN), is a powerful image processing deep learning type often using in computer vision that comprises an image and video recognition along with a recommender system and natural language processing ( NLP).
 CNN uses a multilayer system consists of the input layer, output layer, and a hidden layer that comprises multiple convolutional layers, pooling layers, fully connected layers. We will discuss all layers in the next section of the article while explaining the building of CNN.
 
-![Optional Text]
+![Optional Text]()
 
 Kaggle Notebook link :
 
