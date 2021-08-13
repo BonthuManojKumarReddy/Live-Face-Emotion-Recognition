@@ -63,11 +63,9 @@ Kaggle Notebook link:https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-
     using Jypyter Notebook with model saved by cnn with best weights.
   https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/tree/main/Kaggle%20Notebooks/OpenCv%20code
     
- # 2.Deployment in Heroku Platform
- 
- 
-  # 3.Deployment in Streamlit webapp
-  Note : please try to start by selecting device, ignore the error code shown press start()
+  # 2.Deployment in Streamlit webapp
+    Note : please try to start by selecting device, ignore the error code shown press start()
+  https://share.streamlit.io/bonthumanojkumarreddy/live-face-emotion-recognition/main
   
   
   ## Concluding Summary
