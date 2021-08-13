@@ -61,7 +61,7 @@ Kaggle Notebook link:https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-
    ## Deployment of models
  # 1.Deployment code for OpenCV using local machine.
     using Jypyter Notebook with model saved by cnn with best weights.
-    https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/tree/main/Kaggle%20Notebooks/OpenCv%20code
+  https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/tree/main/Kaggle%20Notebooks/OpenCv%20code
     
  # 2.Deployment in Heroku Platform
  
