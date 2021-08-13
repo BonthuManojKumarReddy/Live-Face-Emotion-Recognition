@@ -56,7 +56,7 @@ Kaggle Notebook link:https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-
  I have trained the model with MobileNetV2 and got the accuracy of 74% , which was better than previous model.
  
   ## Model accuracy and loss plot
-  ![]
+  ![](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/Loss%20and%20accuracy%20plot%20(1).jpg)
   
    ## Deployment of models
  # 1.Deployment code for OpenCV using local machine.
