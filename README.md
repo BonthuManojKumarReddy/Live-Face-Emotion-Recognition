@@ -38,7 +38,7 @@ CNN uses a multilayer system consists of the input layer, output layer, and a hi
 
 ![Optional Text](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/CNN_model%20image.jpg)
 
-Kaggle Notebook link :
+Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Kaggle%20Notebooks/emotion-detection-using-cnn%20(1).ipynb
 
 • CNN model has given training  accuracy of 80% and test accuracy of 68%. It seems excellent. So, we saved using callbacks and Tested on local machine it was worked fine.
 
