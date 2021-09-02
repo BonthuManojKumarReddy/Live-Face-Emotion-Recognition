@@ -45,7 +45,7 @@ Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion
 
  
   ## Model accuracy and loss plot
-  ![](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/Loss%20and%20accuracy%20plot%20(1).jpg)
+  ![](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/loss%20%20and%20accuracy%20plot.JPG)
   
    ## Deployment of models
  # 1.Deployment code for OpenCV using local machine.
