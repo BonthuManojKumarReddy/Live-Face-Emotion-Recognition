@@ -17,7 +17,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras import layers
 
 
-my_model=load_model('model.h5')
+my_model=load_model('model_2bestweights.h5')
 
 
 class VideoTransformer(VideoTransformerBase):
