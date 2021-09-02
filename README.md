@@ -26,7 +26,7 @@ Here is the dataset link:-  https://www.kaggle.com/jonathanoheix/face-expression
 
 ## Working Sample and Presentation Details
  # Working Sample images
- ![Demo.image](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/working%20sample%20image.JPG)
+ ![Demo.gif](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Working%20video%20in%20local%20machine%20as%20gif.gif)
  
  # Presentation view in pdf
  https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/Presentation(new).pdf
