@@ -24,12 +24,11 @@ Here is the dataset link:-  https://www.kaggle.com/jonathanoheix/face-expression
 4)	Streamlit-Webrtc
 5)	OpenCV
 
-## Working Sample and Presentation Details
- # Working Sample images
+## Working Sample Video
+ 
  ![Demo.gif](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Working%20video%20in%20local%20machine%20as%20gif.gif)
  
- # Presentation view in pdf
- https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/Presentation(new).pdf
+
  
  ## Model Creation
 # 1. Using CNN with the help of Keras
@@ -40,20 +39,10 @@ CNN uses a multilayer system consists of the input layer, output layer, and a hi
 
 Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Kaggle%20Notebooks/emotion-detection-using-cnn%20(1).ipynb
 
-• CNN model has given training  accuracy of 80% and test accuracy of 68%. It seems excellent. So, we saved using callbacks and Tested on local machine it was worked fine.
+• Initially built model has got training accuracy as 98% and validation accuracy as 75%. This means our model is overfitted.
 
-• Flaws is more time taking and few emotions are very rarely detects .Because less no. of  faces are given to train.
+• Second model was built by doing Data Augmentaion on the first model and done some hyperparameter tuning. This model has given training accuracy as 90% and validation accuracy as 74.2% 
 
-• Validation accuracy was improved by Hyper tuning.
-
-# 2. Transfer Learning using MobileNet
-We shall be using Mobilenet as it is lightweight in its architecture. It uses depthwise separable convolutions which basically means it performs a single convolution on each colour channel rather than combining all three and flattening it. This has the effect of filtering the input channels. Or as the authors of the paper explain clearly: “ For MobileNets the depthwise convolution applies a single filter to each input channel. The pointwise convolution then applies a 1×1 convolution to combine the outputs the depthwise convolution. A standard convolution both filters and combines inputs into a new set of outputs in one step. The depthwise separable convolution splits this into two layers, a separate layer for filtering and a separate layer for combining. This factorization has the effect of drastically reducing computation and model size. ”
-![](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/tl_image.jpg)
-
-
-Kaggle Notebook link:https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Kaggle%20Notebooks/FER%20using%20transfer%20learning.ipynb
-
- I have trained the model with MobileNetV2 and got the accuracy of 74% , which was better than previous model.
  
   ## Model accuracy and loss plot
   ![](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/Loss%20and%20accuracy%20plot%20(1).jpg)
