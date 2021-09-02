@@ -50,7 +50,7 @@ Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion
    ## Deployment of models
  # 1.Deployment code for OpenCV using local machine.
     using Jypyter Notebook with model saved by cnn with best weights.
-  https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/tree/main/Kaggle%20Notebooks/OpenCv%20code
+  https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/OpenCV%20code.ipynb
     
   # 2.Deployment in Streamlit webapp
     Note : please try to start by selecting device, ignore the error code shown press start()
