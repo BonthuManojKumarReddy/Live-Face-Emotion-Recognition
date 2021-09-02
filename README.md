@@ -37,7 +37,7 @@ CNN uses a multilayer system consists of the input layer, output layer, and a hi
 
 ![Optional Text](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/CNN_model%20image.jpg)
 
-Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Kaggle%20Notebooks/emotion-detection-using-cnn%20(1).ipynb
+Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/emotion-detection-using-cnn%20(4).ipynb
 
 • Initially built model has got training accuracy as 98% and validation accuracy as 75%. This means our model is overfitted.
 
