@@ -1,19 +1,16 @@
 import cv2
 from keras.models import load_model
 import numpy as np
-face_detect = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')  
 
-    
+
+face_detect = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')  
 
 def face_detection(img,size=0.5):
     
-    
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) 
-    
     
     face_roi = face_detect.detectMultiScale(img_gray, 1.3,1)   
     
-   
     class_labels = ['Fear','Angry','Neutral','Happy']
                                                               
      
@@ -36,7 +33,7 @@ def face_detection(img,size=0.5):
         img_color_crop = img[y:y+h,x:x+w]                        
         
        
-        model=load_model('model_2bestweights.h5')
+        model=load_model(r'model_2bestweights.h5')
         
         final_image = cv2.resize(img_color_crop, (48,48),interpolation=cv2.INTER_AREA)  
        
