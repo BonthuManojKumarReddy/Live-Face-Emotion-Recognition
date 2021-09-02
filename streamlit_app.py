@@ -17,13 +17,13 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras import layers
 
 
-my_model=load_model('model_2bestweights.h5')
+my_model=load_model(r'model_2bestweights.h5')
 
 
 class VideoTransformer(VideoTransformerBase):
     def transform(self, frame):
         img = frame.to_ndarray(format="bgr24")
-        face_detect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+        face_detect = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
     
         
         class_labels = ['Fear','Angry','Neutral','Happy']
