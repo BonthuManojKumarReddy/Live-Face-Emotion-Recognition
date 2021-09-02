@@ -47,7 +47,7 @@ Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion
   ## Model accuracy and loss plot
   ![](https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/Media%20files/loss%20%20and%20accuracy%20plot.JPG)
   
-   ## Deployment of models
+   ## Deployment of the  model
  # 1.Deployment code for OpenCV using local machine.
     using Jypyter Notebook with model saved by cnn with best weights.
   https://github.com/BonthuManojKumarReddy/Live-Face-Emotion-Recognition/blob/main/OpenCV%20code.ipynb
@@ -58,5 +58,5 @@ Kaggle Notebook link :https://github.com/BonthuManojKumarReddy/Live-Face-Emotion
   
   
   ## Concluding Summary
-   So Here, Finally I have build a Web App by Using CNN model, which as training accuracy of 74% and validation accuracy of 68%
+   So Here, Finally I have build a Web App by Using CNN model, which as training accuracy of 90% and validation accuracy of 74.2%
 
